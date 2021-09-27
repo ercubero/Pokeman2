@@ -1,3 +1,3 @@
 alert('Hello world');
-let age = 29;
-let name = 'Anne';
+let FavoriteFood = 'Alfredo Pasta';
+document.write(FavoriteFood);
