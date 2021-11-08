@@ -1,4 +1,4 @@
-let pokemonList = [
+const pokemonList = [
   {
     name: 'Ivysaur',
     height: 1,
@@ -6,7 +6,7 @@ let pokemonList = [
   },
   {
     name: 'Charizard',
-    height: "1.1",
+    height: 1.1,
     types: ['fire','flying']
   },
   {
