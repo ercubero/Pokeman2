@@ -1,5 +1,3 @@
-    height: 1,
-    types: ['grass','poison']
 let pokemonRepository = (function (){
     let pokemonList = [
       {
