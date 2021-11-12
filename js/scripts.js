@@ -1,5 +1,5 @@
-let pokemonRepository = (function (){
-    let pokemonList = [
+const pokemonRepository = (function (){
+    const pokemonList = [
       {
         name: 'Ivysaur',
         height: 1,
@@ -7,7 +7,7 @@ let pokemonRepository = (function (){
       },
       {
         name: 'Charizard',
-        height: "1.1",
+        height: 1.1,
         types: ['fire','flying']
       },
       {
@@ -26,11 +26,11 @@ let pokemonRepository = (function (){
 
       return {
         add: add,
-        getAll: getAll()
+        getAll: getAll
       };
     })();
 
-pokemonRepository.getAll.forEach(function(pokemon) {
+pokemonRepository.getAll().forEach(function(pokemon) {
       if (pokemon.height > 1) {
         document.write( pokemon.name + ("\(Height: ") + pokemon.height + " ) " + "-Wow that's big!" + '<br>' )
       }
